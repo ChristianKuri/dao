@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "@openzeppelin/contracts/governance/TimelockController.sol";
+import '@openzeppelin/contracts/governance/TimelockController.sol';
 
-contract Timelock is TimelockController {
+contract TimeLock is TimelockController {
     // minDelay: How long you have to wait before executing
     // proposers: The list of adders that can make a proposal
     // executors: The list of adders that can execute when a proposal is approved
