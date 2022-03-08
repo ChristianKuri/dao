@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "../node_modules/@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol";
+import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol";
 
 contract GovernanceToken is ERC20Votes {
     uint256 public maxSupply = 1_000_000 * 10**18;
