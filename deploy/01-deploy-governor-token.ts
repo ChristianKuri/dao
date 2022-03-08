@@ -5,7 +5,7 @@ import { ethers } from 'hardhat'
 const deployGovernanceToken: DeployFunction = async function (
   hre: HardhatRuntimeEnvironment,
 ) {
-  const { getNamedAccounts, deployments, network } = hre
+  const { getNamedAccounts, deployments } = hre
   const { deploy, log } = deployments
   const { deployer } = await getNamedAccounts()
 
